@@ -1,0 +1,24 @@
+{
+  "name": "basic-api",
+  "version": "1.0.0",
+  "description": "Basic REST API using Express, store JSON strings",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lejonmanen/basic-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lejonmanen/basic-api/issues"
+  },
+  "homepage": "https://github.com/lejonmanen/basic-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1"
+  }
+}
