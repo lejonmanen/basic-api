@@ -11,10 +11,12 @@ You can store JSON strings using a RESTful API.
 | GET    | `/new-key`  |      | JS object. If status is true, apiKey is a key you can use to access the rest of the API. Example: <br> `{ status, apiKey }`
 | GET     | `/data`    |      | . |
 | GET     | `/data/:id`|      | . |
-| POST    | `/data`    | ja   | . |
-| PUT     | `/data/:id`| ja   | . |
+| POST    | `/data`    | yes  | . |
+| PUT     | `/data/:id`| yes  | . |
 | DELETE  | `/data/:id`|      | . |
 
+
+---
 
 ## Internal data
 The documents in the database
